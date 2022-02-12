@@ -40,7 +40,7 @@ Of course, fst-json does not rely entirely on fastify, the serialization method 
 
 * **Field validation according to schema:** When a required attribute is missing (for example, an attribute that is not modified by the `?` modifier when defining an interface), an error will be reported directly.
 * **Filter unnecessary schema fields:** For example, when Node.JS is used as the BFF layer, fields can be returned strictly according to the definition of Typescript to avoid returning unnecessary fields, thereby avoiding passing sensitive fields from upstream services.
-* **Faster serialization speed: **According to the test of [fast-json-stringify](https://github.com/fastify/fast-json-stringify), it can achieve nearly 2 times serialization speed.
+* **Faster serialization speed:** According to the test of [fast-json-stringify](https://github.com/fastify/fast-json-stringify), it can achieve nearly 2 times serialization speed.
 
 ## Usage
 
