@@ -1,0 +1,19 @@
+lockfileVersion: 5.3
+
+specifiers:
+  fst-stable-stringify: 1.0.3
+
+dependencies:
+  fst-stable-stringify: 1.0.3
+
+packages:
+
+  /fst-stable-stringify/1.0.3:
+    resolution: {integrity: sha512-qOGGlhy9kKlWM1qt291sr8QbIYB9bFE0QYcurJ6bWfZDyalf2Qnj3NHBGtxM3ihD3rFWa2cryTCtgJkkpjzQog==}
+    dependencies:
+      jsonify: 0.0.0
+    dev: false
+
+  /jsonify/0.0.0:
+    resolution: {integrity: sha1-LHS27kHZPKUbe1qu6PUDYx0lKnM=}
+    dev: false

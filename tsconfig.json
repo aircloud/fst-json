@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": false,
+    "declaration": true,
+    "downlevelIteration": true,
+    "incremental": false,
+    "outDir": "lib",
+    "rootDir": "src",
+    "esModuleInterop": true,
+    "target": "ES2019",
+    "types": ["jest"],
+    "typeRoots": ["./node_modules/@types"]
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}
